@@ -11,7 +11,7 @@ public class CapabilitiesSetup {
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("app","sauce-storage:ebay.apk");
-        capabilities.setCapability("username","automationorozcog");
+        capabilities.setCapability("username",System.getenv("SAUCE_USER"));
         capabilities.setCapability("accessKey", System.getenv("ACCESS_KEY"));
         capabilities.setCapability("deviceName","Google Pixel 3 XL GoogleAPI Emulator");
         capabilities.setCapability("deviceOrientation","portrait");

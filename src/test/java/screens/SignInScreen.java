@@ -29,7 +29,6 @@ public class SignInScreen extends BaseScreen{
         writeText(emailInput, user);
         writeText(passwordInput, password);
         tap(signinButton);
-        implicitWait(1500);
     }
 
 

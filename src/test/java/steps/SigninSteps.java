@@ -33,7 +33,7 @@ public class SigninSteps {
     @When("^the user tries to login with valid data$")
     public void theUserTriesToLoginWithValidData() {
         signInScreen = homeScreen.goToLoginForm();
-        signInScreen.sendCredentials(System.getenv("EMAIL"),System.getenv("PASSWORD"));
+        signInScreen.sendCredentials("computerorozco@gmail.com",System.getenv("PASSWORD"));
 
     }
 

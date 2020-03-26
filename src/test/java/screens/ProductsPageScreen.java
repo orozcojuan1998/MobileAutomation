@@ -53,6 +53,7 @@ public class ProductsPageScreen extends BaseScreen {
     }
 
     public void deleteSearch() {
+        implicitWait(1000);
         tap(switchSaveSearch);
         tap(deleteButton);
     }

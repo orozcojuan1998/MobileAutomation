@@ -119,6 +119,7 @@ public class HomeScreen extends BaseScreen {
     }
 
     public ProductsPageScreen goToResultsPage(String query) {
+        implicitWait(1500);
         writeText(searchItem,query);
         tap(searchItem);
         ((AndroidDriver<MobileElement>) appiumDriver).pressKey(new KeyEvent(AndroidKey.ENTER));
