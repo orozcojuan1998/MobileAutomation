@@ -9,8 +9,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import java.util.concurrent.TimeUnit;
-
 public class HomeScreen extends BaseScreen {
 
 
@@ -29,7 +27,7 @@ public class HomeScreen extends BaseScreen {
     @FindBy(id = "com.ebay.kijiji.ca:id/home_search_edittext")
     private WebElement searchItem;
 
-    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/androidx.drawerlayout.widget.DrawerLayout/android.widget.FrameLayout[2]/android.widget.ListView/android.widget.RelativeLayout[7]")
+    @FindBy(xpath = "//*[@text=\"Saved Searches\"] ")
     private WebElement savedSearchs;
 
     @FindBy(id = "com.ebay.kijiji.ca:id/new_login_choice_sign_in")

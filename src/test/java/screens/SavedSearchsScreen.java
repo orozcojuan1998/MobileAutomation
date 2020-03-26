@@ -11,8 +11,7 @@ public class SavedSearchsScreen extends BaseScreen {
 
     @FindBy(id = "com.ebay.kijiji.ca:id/second_line")
     private WebElement frequencySearch;
-
-
+    
 
     public SavedSearchsScreen(AppiumDriver<?> appiumDriver) {
         super(appiumDriver);

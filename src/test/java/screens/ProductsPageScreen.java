@@ -1,7 +1,6 @@
 package screens;
 
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -17,7 +16,7 @@ public class ProductsPageScreen extends BaseScreen {
     @FindBy(id = "com.ebay.kijiji.ca:id/saved_search_name")
     private WebElement searchName;
 
-    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/android.widget.RadioGroup/android.widget.RadioButton[2]")
+    @FindBy(xpath = "//*[@resource-id='com.ebay.kijiji.ca:id/saved_search_alert_frequency']/android.widget.RadioButton[2]")
     private WebElement weeklyNotification;
 
     @FindBy(id = "com.ebay.kijiji.ca:id/done")

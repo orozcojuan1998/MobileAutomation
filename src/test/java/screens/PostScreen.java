@@ -1,9 +1,7 @@
 package screens;
 
 import entities.Ad;
-import helpers.StaticWait;
 import io.appium.java_client.AppiumDriver;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -22,17 +20,13 @@ public class PostScreen extends BaseScreen {
     @FindBy(id = "com.ebay.kijiji.ca:id/descriptionEditText")
     private WebElement descriptionInput;
 
-    //category arrow com.ebay.kijiji.ca:id/spoke_label_chevron
-    //category first com.ebay.kijiji.ca:id/post_ad_category_info
-    //xpath
-    //xpath nanny
     @FindBy(id = "com.ebay.kijiji.ca:id/post_ad_category_info")
     private WebElement category;
 
-    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[6]/android.widget.RadioButton")
+    @FindBy(xpath = "//*[@class=\"android.widget.ListView\"]/android.widget.LinearLayout[6]")
     private WebElement services;
 
-    @FindBy(xpath = "/hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ListView/android.widget.LinearLayout[2]/android.widget.RadioButton")
+    @FindBy(xpath = "//*[@class=\"android.widget.ListView\"]/android.widget.LinearLayout[6]")
     private WebElement nannyService;
 
     @FindBy(id = "com.ebay.kijiji.ca:id/post_ad_location_contact_spoke")

@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class SignInScreen extends BaseScreen{
+public class SignInScreen extends BaseScreen {
 
 
     @FindBy(id = "com.ebay.kijiji.ca:id/new_login_fragment_email")

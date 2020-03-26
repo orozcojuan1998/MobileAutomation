@@ -23,10 +23,9 @@ public class Hook {
 
     @After
     public void tearDown(Scenario scenario) {
-        if (scenario.isFailed()){
+        if (scenario.isFailed()) {
             ((JavascriptExecutor) driver).executeScript("sauce:job-result=" + ("failed"));
-        }
-        else {
+        } else {
             ((JavascriptExecutor) driver).executeScript("sauce:job-result=" + ("passed"));
         }
 

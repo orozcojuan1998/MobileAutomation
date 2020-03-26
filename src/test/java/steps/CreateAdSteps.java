@@ -5,7 +5,6 @@ import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import entities.Ad;
-import helpers.StaticWait;
 import io.appium.java_client.AppiumDriver;
 import org.junit.Assert;
 import screens.HomeScreen;
@@ -20,7 +19,7 @@ public class CreateAdSteps {
     private ProfileScreen profileScreen;
     private Ad ad;
 
-    public CreateAdSteps(Hook hook){
+    public CreateAdSteps(Hook hook) {
         appiumDriver = hook.getDriver();
         homeScreen = new HomeScreen(appiumDriver);
     }
@@ -35,22 +34,22 @@ public class CreateAdSteps {
 
     @When("^the user enters the data to create the ad$")
     public void theUserEntersTheDataToCreateTheAd() {
-        ad = new Ad("Great nanny service","Nanny services in Alberta, Canada","Alberta", "417-545-0160");
-        postScreen.sendPostData(ad,true);
+        ad = new Ad("Personal training", "Personal gym training in York, Canada", "York", "417-545-0160");
+        postScreen.sendPostData(ad, true);
 
     }
 
     @Then("^the add is successfully create in the app$")
     public void theAddIsSuccessfullyCreateInTheApp() {
         Assert.assertTrue("Success element not present", postScreen.getSuccessDialog().isDisplayed());
-        Assert.assertEquals("Unsuccessful ad creation","Success!", postScreen.getSuccessDialog().getText());
+        Assert.assertEquals("Unsuccessful ad creation", "Success!", postScreen.getSuccessDialog().getText());
 
     }
 
     @When("^the user enters the data to create the ad with empty data$")
     public void theUserEntersTheDataToCreateTheAdWithEmptyData() {
-        ad = new Ad("","Nanny services in Toronto","York", "416-555-0160");
-        postScreen.sendPostData(ad,false);
+        ad = new Ad("", "Nanny services in Toronto", "York", "416-555-0160");
+        postScreen.sendPostData(ad, false);
     }
 
     @Then("^the user is informed that the title can't be empty$")
@@ -65,14 +64,14 @@ public class CreateAdSteps {
 
     @When("^the user enters the data to create the ad with invalid phone number$")
     public void theUserEntersTheDataToCreateTheAdWithInvalidPhoneNumber() {
-        ad = new Ad("New product","Nanny services in Toronto","York", "Text");
-        postScreen.sendPostData(ad,false);
+        ad = new Ad("New product", "Nanny services in Toronto", "York", "Text");
+        postScreen.sendPostData(ad, false);
     }
 
     @And("^the post is deleted$")
     public void thePostIsDeleted() {
         profileScreen = postScreen.closeTab();
         profileScreen.deleteAd();
-        Assert.assertEquals("Ad couldn't be removed","List an item now",profileScreen.getEmptyAdsDialog().getText());
+        Assert.assertEquals("Ad couldn't be removed", "List an item now", profileScreen.getEmptyAdsDialog().getText());
     }
 }

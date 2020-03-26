@@ -1,0 +1,16 @@
+helpers\CapabilitiesSetup.class
+screens\PostScreen.class
+drivermanager\DriverManager.class
+entities\Ad.class
+steps\SaveSearchSteps.class
+screens\SignInScreen.class
+screens\HomeScreen.class
+steps\CreateAdSteps.class
+steps\SigninSteps.class
+screens\ProfileScreen.class
+screens\SavedSearchsScreen.class
+entities\User.class
+screens\ProductsPageScreen.class
+steps\Hook.class
+runner\TestRunner.class
+screens\BaseScreen.class

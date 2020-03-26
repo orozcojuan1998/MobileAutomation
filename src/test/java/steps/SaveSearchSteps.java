@@ -25,18 +25,12 @@ public class SaveSearchSteps {
     private String query;
     private String frequency;
 
-    public SaveSearchSteps(Hook hook){
+    public SaveSearchSteps(Hook hook) {
         this.appiumDriver = hook.getDriver();
         homeScreen = new HomeScreen(appiumDriver);
 
     }
 
-
-    @Given("^the user wants to save a search to be notified daily$")
-    public void theUserWantsToSaveASearchToBeNotifiedDaily() {
-
-
-    }
 
     @When("^the user enters the the data$")
     public void theUserEntersTheTheData(DataTable queryData) {
@@ -60,7 +54,7 @@ public class SaveSearchSteps {
 
     @Then("^the search and notifications are saved$")
     public void theSearchAndNotificationsAreSaved() {
-        Assert.assertEquals("The names of the save search doesn't match",query,savedSearchsScreen.getNameSearch().getText());
+        Assert.assertEquals("The names of the save search doesn't match", query, savedSearchsScreen.getNameSearch().getText());
         Assert.assertTrue("Frequency is incorrect", savedSearchsScreen.getFrequencySearch().getText().contains(frequency));
 
     }
@@ -69,14 +63,14 @@ public class SaveSearchSteps {
     public void theUserIsAuthenticated() {
         homeScreen.tapDenyButton();
         signInScreen = homeScreen.goToLoginForm();
-        signInScreen.sendCredentials(System.getenv("EMAIL"),System.getenv("PASSWORD"));
+        signInScreen.sendCredentials(System.getenv("EMAIL"), System.getenv("PASSWORD"));
     }
 
     @And("^the saved search is deleted$")
     public void theSavedSearchIsDeleted() {
         savedSearchsScreen.goToProductsPage();
         productsPageScreen.deleteSearch();
-        Assert.assertEquals("Cannot delete search","OFF", productsPageScreen.getSwitchSaveSearch().getText());
+        Assert.assertEquals("Cannot delete search", "OFF", productsPageScreen.getSwitchSaveSearch().getText());
     }
 
     @When("^the guest enters the the data$")

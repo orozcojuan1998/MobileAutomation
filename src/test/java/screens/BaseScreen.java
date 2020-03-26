@@ -22,9 +22,6 @@ public class BaseScreen {
     public void tap(WebElement element) {
         element.click();
     }
-    public void clear(WebElement element) {
-        element.clear();
-    }
     public void writeText(WebElement element, String word) {
         element.sendKeys(word);
     }

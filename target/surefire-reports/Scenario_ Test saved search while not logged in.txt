@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Test saved search while not logged in
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 79.275 s - in Scenario: Test saved search while not logged in
