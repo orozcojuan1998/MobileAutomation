@@ -1,18 +1,12 @@
 package steps;
 
-import com.saucelabs.common.SauceOnDemandAuthentication;
-import com.saucelabs.common.SauceOnDemandSessionIdProvider;
-import com.saucelabs.junit.SauceOnDemandTestWatcher;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import drivermanager.DriverManager;
-import drivermanager.DriverType;
 import helpers.CapabilitiesSetup;
 import io.appium.java_client.AppiumDriver;
-import org.junit.Rule;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 
