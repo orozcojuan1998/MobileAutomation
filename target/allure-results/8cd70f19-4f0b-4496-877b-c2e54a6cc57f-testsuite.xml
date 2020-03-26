@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns2:test-suite start="1585229960384" stop="1585230299762" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+<ns2:test-suite start="1585230560505" stop="1585230900183" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
     <name>Ad Management</name>
     <description type="text"></description>
     <test-cases>
-        <test-case start="1585229960981" stop="1585230090331" status="passed">
+        <test-case start="1585230561095" stop="1585230684522" status="passed">
             <name>Create ad without photos</name>
             <title>Create ad without photos</title>
             <description type="text"></description>
             <steps>
-                <step start="1585230019061" stop="1585230033419" status="passed">
+                <step start="1585230615601" stop="1585230629299" status="passed">
                     <name>Given the user is authenticated</name>
                     <title>Given the user is authenticated</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1585230033419" stop="1585230046596" status="passed">
+                <step start="1585230629300" stop="1585230645941" status="passed">
                     <name>Given the user wants to create a new ad</name>
                     <title>Given the user wants to create a new ad</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1585230046596" stop="1585230078459" status="passed">
+                <step start="1585230645943" stop="1585230673856" status="passed">
                     <name>When the user enters the data to create the ad</name>
                     <title>When the user enters the data to create the ad</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1585230078460" stop="1585230079411" status="passed">
+                <step start="1585230673857" stop="1585230675007" status="passed">
                     <name>Then the add is successfully create in the app</name>
                     <title>Then the add is successfully create in the app</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1585230079417" stop="1585230089378" status="passed">
+                <step start="1585230675008" stop="1585230683578" status="passed">
                     <name>And the post is deleted</name>
                     <title>And the post is deleted</title>
                     <attachments/>
@@ -44,34 +44,34 @@
                 <label name="story" value="Create ad without photos"/>
                 <label name="feature" value="Ad Management"/>
                 <label name="host" value="EN911114"/>
-                <label name="thread" value="9192@EN911114.pool-1-thread-1(13)"/>
+                <label name="thread" value="20928@EN911114.pool-1-thread-1(13)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1585230090450" stop="1585230200602" status="passed">
+        <test-case start="1585230684585" stop="1585230793142" status="passed">
             <name>Create ad with empty title</name>
             <title>Create ad with empty title</title>
             <description type="text"></description>
             <steps>
-                <step start="1585230142136" stop="1585230157143" status="passed">
+                <step start="1585230733967" stop="1585230748604" status="passed">
                     <name>Given the user is authenticated</name>
                     <title>Given the user is authenticated</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1585230157143" stop="1585230170017" status="passed">
+                <step start="1585230748604" stop="1585230760142" status="passed">
                     <name>Given the user wants to create a new ad</name>
                     <title>Given the user wants to create a new ad</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1585230170017" stop="1585230197131" status="passed">
+                <step start="1585230760142" stop="1585230788647" status="passed">
                     <name>When the user enters the data to create the ad with empty data</name>
                     <title>When the user enters the data to create the ad with empty data</title>
                     <attachments/>
                     <steps/>
                 </step>
-                <step start="1585230197132" stop="1585230199474" status="passed">
+                <step start="1585230788647" stop="1585230791706" status="passed">
                     <name>Then the user is informed that the title can't be empty</name>
                     <title>Then the user is informed that the title can't be empty</title>
                     <attachments/>
@@ -83,11 +83,11 @@
                 <label name="story" value="Create ad with empty title"/>
                 <label name="feature" value="Ad Management"/>
                 <label name="host" value="EN911114"/>
-                <label name="thread" value="9192@EN911114.pool-1-thread-1(13)"/>
+                <label name="thread" value="20928@EN911114.pool-1-thread-1(13)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>
-        <test-case start="1585230200613" stop="1585230299757" status="broken">
+        <test-case start="1585230793145" stop="1585230900179" status="broken">
             <name>Create ad with invalid phone number</name>
             <title>Create ad with invalid phone number</title>
             <description type="text"></description>
@@ -98,8 +98,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EN911114', ip: '172.20.81.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}
-Session ID: ebde8e29e6694b95b462f3bde75e6d8f
+Capabilities {app: /tmp/tmp6DgQOw/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp6DgQOw/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: a3342c44b896457abac2f45eda2...}
+Session ID: a3342c44b896457abac2f45eda21a002
 *** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}</message>
                 <stack-trace>org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -107,8 +107,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'EN911114', ip: '172.20.81.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
 Driver info: io.appium.java_client.android.AndroidDriver
-Capabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}
-Session ID: ebde8e29e6694b95b462f3bde75e6d8f
+Capabilities {app: /tmp/tmp6DgQOw/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp6DgQOw/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: a3342c44b896457abac2f45eda2...}
+Session ID: a3342c44b896457abac2f45eda21a002
 *** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -142,23 +142,23 @@ Session ID: ebde8e29e6694b95b462f3bde75e6d8f
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)
 	at steps.CreateAdSteps.theUserIsInformedThatTheTitleCanTBeEmpty(CreateAdSteps.java:57)
-	at ✽.Then the user is informed that the title can't be empty(src/test/resources/features/createpost.feature:20)
+	at ✽.Then the user is informed that the title can't be empty(createpost.feature:20)
 </stack-trace>
             </failure>
             <steps>
-                <step start="1585230247086" stop="1585230261890" status="passed">
+                <step start="1585230844464" stop="1585230859368" status="passed">
                     <name>Given the user is authenticated</name>
                     <title>Given the user is authenticated</title>
                 </step>
-                <step start="1585230261891" stop="1585230274030" status="passed">
+                <step start="1585230859368" stop="1585230873813" status="passed">
                     <name>Given the user wants to create a new ad</name>
                     <title>Given the user wants to create a new ad</title>
                 </step>
-                <step start="1585230274030" stop="1585230297974" status="passed">
+                <step start="1585230873813" stop="1585230898320" status="passed">
                     <name>When the user enters the data to create the ad with invalid phone number</name>
                     <title>When the user enters the data to create the ad with invalid phone number</title>
                 </step>
-                <step start="1585230297974" stop="1585230298710" status="broken">
+                <step start="1585230898320" stop="1585230899111" status="broken">
                     <name>Then the user is informed that the title can't be empty</name>
                     <title>Then the user is informed that the title can't be empty</title>
                 </step>
@@ -168,7 +168,7 @@ Session ID: ebde8e29e6694b95b462f3bde75e6d8f
                 <label name="story" value="Create ad with invalid phone number"/>
                 <label name="feature" value="Ad Management"/>
                 <label name="host" value="EN911114"/>
-                <label name="thread" value="9192@EN911114.pool-1-thread-1(13)"/>
+                <label name="thread" value="20928@EN911114.pool-1-thread-1(13)"/>
                 <label name="framework" value="CucumberJVM"/>
             </labels>
         </test-case>

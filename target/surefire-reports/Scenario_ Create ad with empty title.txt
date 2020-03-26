@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Scenario: Create ad with empty title
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 109.047 s - in Scenario: Create ad with empty title
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 107.126 s - in Scenario: Create ad with empty title

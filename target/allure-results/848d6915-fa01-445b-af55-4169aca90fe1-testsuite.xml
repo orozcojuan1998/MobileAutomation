@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1585231178399" stop="1585231455276" version="1.5.2" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Sign in</name>
+    <description type="text"></description>
+    <test-cases>
+        <test-case start="1585231178404" stop="1585231245990" status="passed">
+            <name>Test successful login</name>
+            <title>Test successful login</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1585231226071" stop="1585231228441" status="passed">
+                    <name>Given the user is in the app home screen</name>
+                    <title>Given the user is in the app home screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231228442" stop="1585231238914" status="passed">
+                    <name>When the user tries to login with valid data</name>
+                    <title>When the user tries to login with valid data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231238914" stop="1585231244658" status="passed">
+                    <name>Then the user is logged in</name>
+                    <title>Then the user is logged in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test successful login"/>
+                <label name="feature" value="Sign in"/>
+                <label name="host" value="EN911114"/>
+                <label name="thread" value="20928@EN911114.pool-1-thread-1(13)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1585231245993" stop="1585231308693" status="passed">
+            <name>Test login invalid email</name>
+            <title>Test login invalid email</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1585231289346" stop="1585231294369" status="passed">
+                    <name>Given the user is in the app home screen</name>
+                    <title>Given the user is in the app home screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231294369" stop="1585231305676" status="passed">
+                    <name>When the user tries to login with invalid email</name>
+                    <title>When the user tries to login with invalid email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231305677" stop="1585231307629" status="passed">
+                    <name>Then the user is informed that his credentials are wrong</name>
+                    <title>Then the user is informed that his credentials are wrong</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test login invalid email"/>
+                <label name="feature" value="Sign in"/>
+                <label name="host" value="EN911114"/>
+                <label name="thread" value="20928@EN911114.pool-1-thread-1(13)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1585231308696" stop="1585231375083" status="passed">
+            <name>Test login invalid password</name>
+            <title>Test login invalid password</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1585231353769" stop="1585231359060" status="passed">
+                    <name>Given the user is in the app home screen</name>
+                    <title>Given the user is in the app home screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231359061" stop="1585231371947" status="passed">
+                    <name>When the user tries to login with invalid password</name>
+                    <title>When the user tries to login with invalid password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231371947" stop="1585231374228" status="passed">
+                    <name>Then the user is informed that his credentials are wrong</name>
+                    <title>Then the user is informed that his credentials are wrong</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test login invalid password"/>
+                <label name="feature" value="Sign in"/>
+                <label name="host" value="EN911114"/>
+                <label name="thread" value="20928@EN911114.pool-1-thread-1(13)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+        <test-case start="1585231375086" stop="1585231455275" status="passed">
+            <name>Test successful logout</name>
+            <title>Test successful logout</title>
+            <description type="text"></description>
+            <steps>
+                <step start="1585231422076" stop="1585231425874" status="passed">
+                    <name>Given the user is in the app home screen</name>
+                    <title>Given the user is in the app home screen</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231425875" stop="1585231434686" status="passed">
+                    <name>And the user tries to login with valid data</name>
+                    <title>And the user tries to login with valid data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231434687" stop="1585231441930" status="passed">
+                    <name>And the user is logged in</name>
+                    <title>And the user is logged in</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231441930" stop="1585231450463" status="passed">
+                    <name>When the user tries to logout from the app</name>
+                    <title>When the user tries to logout from the app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1585231450464" stop="1585231454091" status="passed">
+                    <name>Then the user is logged out of the app</name>
+                    <title>Then the user is logged out of the app</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="story" value="Test successful logout"/>
+                <label name="feature" value="Sign in"/>
+                <label name="host" value="EN911114"/>
+                <label name="thread" value="20928@EN911114.pool-1-thread-1(13)"/>
+                <label name="framework" value="CucumberJVM"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="feature" value="Sign in"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

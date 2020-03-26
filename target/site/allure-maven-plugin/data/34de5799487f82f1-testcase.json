@@ -1,0 +1,116 @@
+{
+  "uid" : "34de5799487f82f1",
+  "name" : "Test saved search while not logged in",
+  "title" : "Test saved search while not logged in",
+  "time" : {
+    "start" : 1585231097637,
+    "stop" : 1585231178247,
+    "duration" : 80610
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f729e241703db109",
+    "name" : "Save Search",
+    "title" : "Save search"
+  },
+  "steps" : [ {
+    "name" : "Given the guest is in the app home screen",
+    "title" : "Given the guest is in the app home screen",
+    "time" : {
+      "start" : 1585231145428,
+      "stop" : 1585231160913,
+      "duration" : 15485
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When the guest enters the the data",
+    "title" : "When the guest enters the the data",
+    "time" : {
+      "start" : 1585231160914,
+      "stop" : 1585231166210,
+      "duration" : 5296
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And the guest save the search with daily notifications",
+    "title" : "And the guest save the search with daily notifications",
+    "time" : {
+      "start" : 1585231166210,
+      "stop" : 1585231176914,
+      "duration" : 10704
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the user is redirected to login page",
+    "title" : "Then the user is redirected to login page",
+    "time" : {
+      "start" : 1585231176914,
+      "stop" : 1585231177468,
+      "duration" : 554
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Test saved search while not logged in"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "20928@EN911114.pool-1-thread-1(13)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Save Search"
+  }, {
+    "name" : "feature",
+    "value" : "Save Search"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "EN911114"
+  } ],
+  "parameters" : [ ]
+}

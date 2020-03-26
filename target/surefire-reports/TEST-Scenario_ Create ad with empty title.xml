@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Scenario: Create ad with empty title" time="109.047" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Scenario: Create ad with empty title" time="107.126" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
@@ -66,7 +66,7 @@
   </properties>
   <testcase name="Scenario: Create ad with empty title" classname="Scenario: Create ad with empty title" time="0"/>
   <testcase name="Given the user is authenticated" classname="Scenario: Create ad with empty title" time="0"/>
-  <testcase name="Given the user wants to create a new ad" classname="Scenario: Create ad with empty title" time="0"/>
+  <testcase name="Given the user wants to create a new ad" classname="Scenario: Create ad with empty title" time="0.001"/>
   <testcase name="When the user enters the data to create the ad with empty data" classname="Scenario: Create ad with empty title" time="0"/>
   <testcase name="Then the user is informed that the title can&apos;t be empty" classname="Scenario: Create ad with empty title" time="0"/>
 </testsuite>

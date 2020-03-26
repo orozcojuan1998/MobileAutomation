@@ -1,36 +1,113 @@
 {
   "testCases" : [ {
-    "uid" : "59bad623b0a5ebf5",
+    "uid" : "48e9045cf2a77ee4",
+    "name" : "Test successful login",
+    "title" : "Test successful login",
+    "time" : {
+      "start" : 1585231178404,
+      "stop" : 1585231245990,
+      "duration" : 67586
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b61c942c5ecdd29b",
+    "name" : "Test login invalid email",
+    "title" : "Test login invalid email",
+    "time" : {
+      "start" : 1585231245993,
+      "stop" : 1585231308693,
+      "duration" : 62700
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ace2c4bc2d3f083e",
+    "name" : "Test login invalid password",
+    "title" : "Test login invalid password",
+    "time" : {
+      "start" : 1585231308696,
+      "stop" : 1585231375083,
+      "duration" : 66387
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "c237bff1d7aad07d",
+    "name" : "Test successful logout",
+    "title" : "Test successful logout",
+    "time" : {
+      "start" : 1585231375086,
+      "stop" : 1585231455275,
+      "duration" : 80189
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "1e7ad7989d3131ea",
     "name" : "Create ad without photos",
     "title" : "Create ad without photos",
     "time" : {
-      "start" : 1585229960981,
-      "stop" : 1585230090331,
-      "duration" : 129350
+      "start" : 1585230561095,
+      "stop" : 1585230684522,
+      "duration" : 123427
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "dde42a1e156cb642",
+    "uid" : "aba94f1b5189261a",
     "name" : "Create ad with empty title",
     "title" : "Create ad with empty title",
     "time" : {
-      "start" : 1585230090450,
-      "stop" : 1585230200602,
-      "duration" : 110152
+      "start" : 1585230684585,
+      "stop" : 1585230793142,
+      "duration" : 108557
     },
     "severity" : "NORMAL",
     "status" : "PASSED"
   }, {
-    "uid" : "f8b2497184f33b82",
+    "uid" : "93bed350afdf0ba",
     "name" : "Create ad with invalid phone number",
     "title" : "Create ad with invalid phone number",
     "time" : {
-      "start" : 1585230200613,
-      "stop" : 1585230299757,
-      "duration" : 99144
+      "start" : 1585230793145,
+      "stop" : 1585230900179,
+      "duration" : 107034
     },
     "severity" : "NORMAL",
     "status" : "BROKEN"
+  }, {
+    "uid" : "bc87d09c523bad4e",
+    "name" : "Test saved search with daily notification",
+    "title" : "Test saved search with daily notification",
+    "time" : {
+      "start" : 1585230900543,
+      "stop" : 1585231005225,
+      "duration" : 104682
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "76083224bf9c636e",
+    "name" : "Test saved search with weekly notification",
+    "title" : "Test saved search with weekly notification",
+    "time" : {
+      "start" : 1585231005230,
+      "stop" : 1585231097634,
+      "duration" : 92404
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "34de5799487f82f1",
+    "name" : "Test saved search while not logged in",
+    "title" : "Test saved search while not logged in",
+    "time" : {
+      "start" : 1585231097637,
+      "stop" : 1585231178247,
+      "duration" : 80610
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
   } ]
 }

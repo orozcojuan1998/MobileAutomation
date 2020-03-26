@@ -1,0 +1,131 @@
+{
+  "uid" : "bc87d09c523bad4e",
+  "name" : "Test saved search with daily notification",
+  "title" : "Test saved search with daily notification",
+  "time" : {
+    "start" : 1585230900543,
+    "stop" : 1585231005225,
+    "duration" : 104682
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "f729e241703db109",
+    "name" : "Save Search",
+    "title" : "Save search"
+  },
+  "steps" : [ {
+    "name" : "Given the user is authenticated",
+    "title" : "Given the user is authenticated",
+    "time" : {
+      "start" : 1585230950479,
+      "stop" : 1585230965228,
+      "duration" : 14749
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When the user enters the the data",
+    "title" : "When the user enters the the data",
+    "time" : {
+      "start" : 1585230965229,
+      "stop" : 1585230973324,
+      "duration" : 8095
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And the user save the search with daily notifications",
+    "title" : "And the user save the search with daily notifications",
+    "time" : {
+      "start" : 1585230973325,
+      "stop" : 1585230994562,
+      "duration" : 21237
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the search and notifications are saved",
+    "title" : "Then the search and notifications are saved",
+    "time" : {
+      "start" : 1585230994563,
+      "stop" : 1585230995521,
+      "duration" : 958
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And the saved search is deleted",
+    "title" : "And the saved search is deleted",
+    "time" : {
+      "start" : 1585230995521,
+      "stop" : 1585231003333,
+      "duration" : 7812
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "thread",
+    "value" : "20928@EN911114.pool-1-thread-1(13)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "story",
+    "value" : "Test saved search with daily notification"
+  }, {
+    "name" : "suite-name",
+    "value" : "Save Search"
+  }, {
+    "name" : "feature",
+    "value" : "Save Search"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "EN911114"
+  } ],
+  "parameters" : [ ]
+}

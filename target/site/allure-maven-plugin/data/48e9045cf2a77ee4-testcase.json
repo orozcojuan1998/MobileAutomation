@@ -1,0 +1,101 @@
+{
+  "uid" : "48e9045cf2a77ee4",
+  "name" : "Test successful login",
+  "title" : "Test successful login",
+  "time" : {
+    "start" : 1585231178404,
+    "stop" : 1585231245990,
+    "duration" : 67586
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eb412488778bd68",
+    "name" : "Sign in",
+    "title" : "Sign in"
+  },
+  "steps" : [ {
+    "name" : "Given the user is in the app home screen",
+    "title" : "Given the user is in the app home screen",
+    "time" : {
+      "start" : 1585231226071,
+      "stop" : 1585231228441,
+      "duration" : 2370
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When the user tries to login with valid data",
+    "title" : "When the user tries to login with valid data",
+    "time" : {
+      "start" : 1585231228442,
+      "stop" : 1585231238914,
+      "duration" : 10472
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the user is logged in",
+    "title" : "Then the user is logged in",
+    "time" : {
+      "start" : 1585231238914,
+      "stop" : 1585231244658,
+      "duration" : 5744
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Sign in"
+  }, {
+    "name" : "thread",
+    "value" : "20928@EN911114.pool-1-thread-1(13)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Sign in"
+  }, {
+    "name" : "story",
+    "value" : "Test successful login"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "EN911114"
+  } ],
+  "parameters" : [ ]
+}

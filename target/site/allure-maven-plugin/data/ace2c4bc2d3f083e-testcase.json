@@ -1,0 +1,101 @@
+{
+  "uid" : "ace2c4bc2d3f083e",
+  "name" : "Test login invalid password",
+  "title" : "Test login invalid password",
+  "time" : {
+    "start" : 1585231308696,
+    "stop" : 1585231375083,
+    "duration" : 66387
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eb412488778bd68",
+    "name" : "Sign in",
+    "title" : "Sign in"
+  },
+  "steps" : [ {
+    "name" : "Given the user is in the app home screen",
+    "title" : "Given the user is in the app home screen",
+    "time" : {
+      "start" : 1585231353769,
+      "stop" : 1585231359060,
+      "duration" : 5291
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When the user tries to login with invalid password",
+    "title" : "When the user tries to login with invalid password",
+    "time" : {
+      "start" : 1585231359061,
+      "stop" : 1585231371947,
+      "duration" : 12886
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the user is informed that his credentials are wrong",
+    "title" : "Then the user is informed that his credentials are wrong",
+    "time" : {
+      "start" : 1585231371947,
+      "stop" : 1585231374228,
+      "duration" : 2281
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Sign in"
+  }, {
+    "name" : "thread",
+    "value" : "20928@EN911114.pool-1-thread-1(13)"
+  }, {
+    "name" : "story",
+    "value" : "Test login invalid password"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Sign in"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "EN911114"
+  } ],
+  "parameters" : [ ]
+}

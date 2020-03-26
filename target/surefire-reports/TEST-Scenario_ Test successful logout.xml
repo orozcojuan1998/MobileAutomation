@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Scenario: Create ad without photos" time="123.062" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Scenario: Test successful logout" time="79.008" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
@@ -64,10 +64,10 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Scenario: Create ad without photos" classname="Scenario: Create ad without photos" time="0"/>
-  <testcase name="Given the user is authenticated" classname="Scenario: Create ad without photos" time="0.002"/>
-  <testcase name="Given the user wants to create a new ad" classname="Scenario: Create ad without photos" time="0"/>
-  <testcase name="When the user enters the data to create the ad" classname="Scenario: Create ad without photos" time="0"/>
-  <testcase name="Then the add is successfully create in the app" classname="Scenario: Create ad without photos" time="0"/>
-  <testcase name="And the post is deleted" classname="Scenario: Create ad without photos" time="0"/>
+  <testcase name="Scenario: Test successful logout" classname="Scenario: Test successful logout" time="0"/>
+  <testcase name="Given the user is in the app home screen" classname="Scenario: Test successful logout" time="0"/>
+  <testcase name="And the user tries to login with valid data" classname="Scenario: Test successful logout" time="0"/>
+  <testcase name="And the user is logged in" classname="Scenario: Test successful logout" time="0"/>
+  <testcase name="When the user tries to logout from the app" classname="Scenario: Test successful logout" time="0"/>
+  <testcase name="Then the user is logged out of the app" classname="Scenario: Test successful logout" time="0"/>
 </testsuite>

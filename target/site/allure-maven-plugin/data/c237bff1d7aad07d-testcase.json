@@ -1,11 +1,11 @@
 {
-  "uid" : "59bad623b0a5ebf5",
-  "name" : "Create ad without photos",
-  "title" : "Create ad without photos",
+  "uid" : "c237bff1d7aad07d",
+  "name" : "Test successful logout",
+  "title" : "Test successful logout",
   "time" : {
-    "start" : 1585229960981,
-    "stop" : 1585230090331,
-    "duration" : 129350
+    "start" : 1585231375086,
+    "stop" : 1585231455275,
+    "duration" : 80189
   },
   "summary" : {
     "attachments" : 0,
@@ -19,17 +19,17 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "abc369aef1b2493c",
-    "name" : "Ad Management",
-    "title" : "Ad management"
+    "uid" : "eb412488778bd68",
+    "name" : "Sign in",
+    "title" : "Sign in"
   },
   "steps" : [ {
-    "name" : "Given the user is authenticated",
-    "title" : "Given the user is authenticated",
+    "name" : "Given the user is in the app home screen",
+    "title" : "Given the user is in the app home screen",
     "time" : {
-      "start" : 1585230019061,
-      "stop" : 1585230033419,
-      "duration" : 14358
+      "start" : 1585231422076,
+      "stop" : 1585231425874,
+      "duration" : 3798
     },
     "summary" : {
       "attachments" : 0,
@@ -39,12 +39,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "Given the user wants to create a new ad",
-    "title" : "Given the user wants to create a new ad",
+    "name" : "And the user tries to login with valid data",
+    "title" : "And the user tries to login with valid data",
     "time" : {
-      "start" : 1585230033419,
-      "stop" : 1585230046596,
-      "duration" : 13177
+      "start" : 1585231425875,
+      "stop" : 1585231434686,
+      "duration" : 8811
     },
     "summary" : {
       "attachments" : 0,
@@ -54,12 +54,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "When the user enters the data to create the ad",
-    "title" : "When the user enters the data to create the ad",
+    "name" : "And the user is logged in",
+    "title" : "And the user is logged in",
     "time" : {
-      "start" : 1585230046596,
-      "stop" : 1585230078459,
-      "duration" : 31863
+      "start" : 1585231434687,
+      "stop" : 1585231441930,
+      "duration" : 7243
     },
     "summary" : {
       "attachments" : 0,
@@ -69,12 +69,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "Then the add is successfully create in the app",
-    "title" : "Then the add is successfully create in the app",
+    "name" : "When the user tries to logout from the app",
+    "title" : "When the user tries to logout from the app",
     "time" : {
-      "start" : 1585230078460,
-      "stop" : 1585230079411,
-      "duration" : 951
+      "start" : 1585231441930,
+      "stop" : 1585231450463,
+      "duration" : 8533
     },
     "summary" : {
       "attachments" : 0,
@@ -84,12 +84,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "And the post is deleted",
-    "title" : "And the post is deleted",
+    "name" : "Then the user is logged out of the app",
+    "title" : "Then the user is logged out of the app",
     "time" : {
-      "start" : 1585230079417,
-      "stop" : 1585230089378,
-      "duration" : 9961
+      "start" : 1585231450464,
+      "stop" : 1585231454091,
+      "duration" : 3627
     },
     "summary" : {
       "attachments" : 0,
@@ -103,23 +103,23 @@
   "issues" : [ ],
   "testIds" : [ ],
   "labels" : [ {
-    "name" : "story",
-    "value" : "Create ad without photos"
-  }, {
     "name" : "language",
     "value" : "JAVA"
   }, {
     "name" : "feature",
-    "value" : "Ad Management"
+    "value" : "Sign in"
   }, {
     "name" : "thread",
-    "value" : "9192@EN911114.pool-1-thread-1(13)"
+    "value" : "20928@EN911114.pool-1-thread-1(13)"
   }, {
     "name" : "suite-title",
     "value" : null
   }, {
+    "name" : "story",
+    "value" : "Test successful logout"
+  }, {
     "name" : "suite-name",
-    "value" : "Ad Management"
+    "value" : "Sign in"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"

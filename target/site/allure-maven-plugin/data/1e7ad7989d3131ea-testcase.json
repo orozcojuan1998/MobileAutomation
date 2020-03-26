@@ -1,15 +1,15 @@
 {
-  "uid" : "dde42a1e156cb642",
-  "name" : "Create ad with empty title",
-  "title" : "Create ad with empty title",
+  "uid" : "1e7ad7989d3131ea",
+  "name" : "Create ad without photos",
+  "title" : "Create ad without photos",
   "time" : {
-    "start" : 1585230090450,
-    "stop" : 1585230200602,
-    "duration" : 110152
+    "start" : 1585230561095,
+    "stop" : 1585230684522,
+    "duration" : 123427
   },
   "summary" : {
     "attachments" : 0,
-    "steps" : 4
+    "steps" : 5
   },
   "failure" : null,
   "description" : {
@@ -19,7 +19,7 @@
   "severity" : "NORMAL",
   "status" : "PASSED",
   "suite" : {
-    "uid" : "abc369aef1b2493c",
+    "uid" : "289244ca18dd4efb",
     "name" : "Ad Management",
     "title" : "Ad management"
   },
@@ -27,9 +27,9 @@
     "name" : "Given the user is authenticated",
     "title" : "Given the user is authenticated",
     "time" : {
-      "start" : 1585230142136,
-      "stop" : 1585230157143,
-      "duration" : 15007
+      "start" : 1585230615601,
+      "stop" : 1585230629299,
+      "duration" : 13698
     },
     "summary" : {
       "attachments" : 0,
@@ -42,9 +42,9 @@
     "name" : "Given the user wants to create a new ad",
     "title" : "Given the user wants to create a new ad",
     "time" : {
-      "start" : 1585230157143,
-      "stop" : 1585230170017,
-      "duration" : 12874
+      "start" : 1585230629300,
+      "stop" : 1585230645941,
+      "duration" : 16641
     },
     "summary" : {
       "attachments" : 0,
@@ -54,12 +54,12 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "When the user enters the data to create the ad with empty data",
-    "title" : "When the user enters the data to create the ad with empty data",
+    "name" : "When the user enters the data to create the ad",
+    "title" : "When the user enters the data to create the ad",
     "time" : {
-      "start" : 1585230170017,
-      "stop" : 1585230197131,
-      "duration" : 27114
+      "start" : 1585230645943,
+      "stop" : 1585230673856,
+      "duration" : 27913
     },
     "summary" : {
       "attachments" : 0,
@@ -69,12 +69,27 @@
     "attachments" : [ ],
     "steps" : [ ]
   }, {
-    "name" : "Then the user is informed that the title can't be empty",
-    "title" : "Then the user is informed that the title can't be empty",
+    "name" : "Then the add is successfully create in the app",
+    "title" : "Then the add is successfully create in the app",
     "time" : {
-      "start" : 1585230197132,
-      "stop" : 1585230199474,
-      "duration" : 2342
+      "start" : 1585230673857,
+      "stop" : 1585230675007,
+      "duration" : 1150
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And the post is deleted",
+    "title" : "And the post is deleted",
+    "time" : {
+      "start" : 1585230675008,
+      "stop" : 1585230683578,
+      "duration" : 8570
     },
     "summary" : {
       "attachments" : 0,
@@ -88,6 +103,9 @@
   "issues" : [ ],
   "testIds" : [ ],
   "labels" : [ {
+    "name" : "story",
+    "value" : "Create ad without photos"
+  }, {
     "name" : "language",
     "value" : "JAVA"
   }, {
@@ -95,16 +113,13 @@
     "value" : "Ad Management"
   }, {
     "name" : "thread",
-    "value" : "9192@EN911114.pool-1-thread-1(13)"
+    "value" : "20928@EN911114.pool-1-thread-1(13)"
   }, {
     "name" : "suite-title",
     "value" : null
   }, {
     "name" : "suite-name",
     "value" : "Ad Management"
-  }, {
-    "name" : "story",
-    "value" : "Create ad with empty title"
   }, {
     "name" : "framework",
     "value" : "CucumberJVM"

@@ -1,0 +1,101 @@
+{
+  "uid" : "b61c942c5ecdd29b",
+  "name" : "Test login invalid email",
+  "title" : "Test login invalid email",
+  "time" : {
+    "start" : 1585231245993,
+    "stop" : 1585231308693,
+    "duration" : 62700
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 3
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "eb412488778bd68",
+    "name" : "Sign in",
+    "title" : "Sign in"
+  },
+  "steps" : [ {
+    "name" : "Given the user is in the app home screen",
+    "title" : "Given the user is in the app home screen",
+    "time" : {
+      "start" : 1585231289346,
+      "stop" : 1585231294369,
+      "duration" : 5023
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When the user tries to login with invalid email",
+    "title" : "When the user tries to login with invalid email",
+    "time" : {
+      "start" : 1585231294369,
+      "stop" : 1585231305676,
+      "duration" : 11307
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the user is informed that his credentials are wrong",
+    "title" : "Then the user is informed that his credentials are wrong",
+    "time" : {
+      "start" : 1585231305677,
+      "stop" : 1585231307629,
+      "duration" : 1952
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Sign in"
+  }, {
+    "name" : "thread",
+    "value" : "20928@EN911114.pool-1-thread-1(13)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Sign in"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "EN911114"
+  }, {
+    "name" : "story",
+    "value" : "Test login invalid email"
+  } ],
+  "parameters" : [ ]
+}
