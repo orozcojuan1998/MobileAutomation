@@ -1,0 +1,119 @@
+{
+  "uid" : "f8b2497184f33b82",
+  "name" : "Create ad with invalid phone number",
+  "title" : "Create ad with invalid phone number",
+  "time" : {
+    "start" : 1585230200613,
+    "stop" : 1585230299757,
+    "duration" : 99144
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : {
+    "message" : "NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EN911114', ip: '172.20.81.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}\nSession ID: ebde8e29e6694b95b462f3bde75e6d8f\n*** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}",
+    "stackTrace" : "org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EN911114', ip: '172.20.81.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}\nSession ID: ebde8e29e6694b95b462f3bde75e6d8f\n*** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:239)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:42)\n\tat io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:62)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElementById(DefaultGenericMobileDriver.java:70)\n\tat io.appium.java_client.AppiumDriver.findElementById(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElementById(AndroidDriver.java:1)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:58)\n\tat io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)\n\tat io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\n\tat steps.CreateAdSteps.theUserIsInformedThatTheTitleCanTBeEmpty(CreateAdSteps.java:57)\n\tat ✽.Then the user is informed that the title can't be empty(src/test/resources/features/createpost.feature:20)\n"
+  },
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "BROKEN",
+  "suite" : {
+    "uid" : "abc369aef1b2493c",
+    "name" : "Ad Management",
+    "title" : "Ad management"
+  },
+  "steps" : [ {
+    "name" : "Given the user is authenticated",
+    "title" : "Given the user is authenticated",
+    "time" : {
+      "start" : 1585230247086,
+      "stop" : 1585230261890,
+      "duration" : 14804
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Given the user wants to create a new ad",
+    "title" : "Given the user wants to create a new ad",
+    "time" : {
+      "start" : 1585230261891,
+      "stop" : 1585230274030,
+      "duration" : 12139
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When the user enters the data to create the ad with invalid phone number",
+    "title" : "When the user enters the data to create the ad with invalid phone number",
+    "time" : {
+      "start" : 1585230274030,
+      "stop" : 1585230297974,
+      "duration" : 23944
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the user is informed that the title can't be empty",
+    "title" : "Then the user is informed that the title can't be empty",
+    "time" : {
+      "start" : 1585230297974,
+      "stop" : 1585230298710,
+      "duration" : 736
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "BROKEN",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Ad Management"
+  }, {
+    "name" : "story",
+    "value" : "Create ad with invalid phone number"
+  }, {
+    "name" : "thread",
+    "value" : "9192@EN911114.pool-1-thread-1(13)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Ad Management"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "EN911114"
+  } ],
+  "parameters" : [ ]
+}

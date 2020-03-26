@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: Scenario: Test saved search with weekly notification
--------------------------------------------------------------------------------
-Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 97.672 s - in Scenario: Test saved search with weekly notification

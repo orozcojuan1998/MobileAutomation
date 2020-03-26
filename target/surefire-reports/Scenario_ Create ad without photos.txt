@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: Scenario: Create ad without photos
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 128.954 s - in Scenario: Create ad without photos

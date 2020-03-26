@@ -26,7 +26,7 @@ public class CreateAdSteps {
 
     @Given("^the user wants to create a new ad$")
     public void theUserWantsToCreateANewAd() {
-        homeScreen.tap(homeScreen.getSideMenu());
+        homeScreen.goToSideMenu();
         postScreen = homeScreen.goToPostPage();
         postScreen.denyGoToPostForm();
 

@@ -93,11 +93,10 @@ public class PostScreen extends BaseScreen {
         tap(postButton);
         if (flag){
             tap(agreeTerms);
-            implicitWait(500);
+            implicitWait(1000);
             tap(skipAdButton);
         }
         implicitWait(500);
-
     }
 
 

@@ -1,0 +1,59 @@
+{
+  "hash" : "e7105c43ada45c9f6e0006854ef1a1d95249231d",
+  "plugins" : {
+    "total" : {
+      "statistic" : {
+        "total" : 3,
+        "passed" : 2,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "time" : {
+        "start" : 1585229960981,
+        "stop" : 1585230299757,
+        "duration" : 338776
+      }
+    },
+    "defects" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "count" : 1,
+        "uid" : "636e592c740d1eb0",
+        "message" : "NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'EN911114', ip: '172.20.81.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'\nDriver info: io.appium.java_client.android.AndroidDriver\nCapabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}\nSession ID: ebde8e29e6694b95b462f3bde75e6d8f\n*** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}",
+        "status" : "BROKEN"
+      } ]
+    },
+    "xunit" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "uid" : "abc369aef1b2493c",
+        "title" : "Ad management",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "behaviors" : {
+      "totalCount" : 1,
+      "items" : [ {
+        "title" : "Ad Management",
+        "statistic" : {
+          "total" : 3,
+          "passed" : 2,
+          "pending" : 0,
+          "canceled" : 0,
+          "failed" : 0,
+          "broken" : 1
+        }
+      } ]
+    },
+    "environment" : [ ]
+  }
+}

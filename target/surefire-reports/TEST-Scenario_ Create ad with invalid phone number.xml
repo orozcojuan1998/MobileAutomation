@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="Scenario: Create ad with invalid phone number" time="98.098" tests="6" errors="2" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\bin"/>
+    <property name="java.vm.version" value="25.241-b07"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\jorozco\IdeaProjects\mobile-workshop"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\jorozco\IdeaProjects\mobile-workshop"/>
+    <property name="java.runtime.version" value="1.8.0_241-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\jorozco\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\jorozco\apache-maven-3.6.3\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_241\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\nodejs\;C:\Users\jorozco\apache-maven-3.6.3\bin;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\Users\jorozco\scoop\shims;C:\Users\jorozco\AppData\Local\Microsoft\WindowsApps;;C:\Users\jorozco\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\bin;;C:\Users\jorozco\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Users\jorozco\apache-maven-3.6.3\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Users\jorozco\apache-maven-3.6.3\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\jorozco"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="jorozco"/>
+    <property name="java.class.path" value="C:\Users\jorozco\apache-maven-3.6.3\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_241\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean verify"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_241"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_241\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_241\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_241\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\jorozco\apache-maven-3.6.3\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="Scenario: Create ad with invalid phone number" classname="Scenario: Create ad with invalid phone number" time="0"/>
+  <testcase name="Scenario: Create ad with invalid phone number" classname="Scenario: Create ad with invalid phone number" time="0">
+    <error message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911114&apos;, ip: &apos;172.20.81.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}&#10;Session ID: ebde8e29e6694b95b462f3bde75e6d8f&#10;*** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EN911114', ip: '172.20.81.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}
+Session ID: ebde8e29e6694b95b462f3bde75e6d8f
+*** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}
+</error>
+  </testcase>
+  <testcase name="Given the user is authenticated" classname="Scenario: Create ad with invalid phone number" time="0"/>
+  <testcase name="Given the user wants to create a new ad" classname="Scenario: Create ad with invalid phone number" time="0"/>
+  <testcase name="When the user enters the data to create the ad with invalid phone number" classname="Scenario: Create ad with invalid phone number" time="0"/>
+  <testcase name="Then the user is informed that the title can&apos;t be empty" classname="Scenario: Create ad with invalid phone number" time="0.011">
+    <error message="An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;EN911114&apos;, ip: &apos;172.20.81.11&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_241&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}&#10;Session ID: ebde8e29e6694b95b462f3bde75e6d8f&#10;*** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'EN911114', ip: '172.20.81.11', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_241'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /tmp/tmp7aLtFM/ebay.apk, appPackage: com.ebay.kijiji.ca, databaseEnabled: false, desired: {app: /tmp/tmp7aLtFM/ebay.apk, deviceName: Google Pixel 3 XL GoogleAPI..., eventTimings: true, maxTypingFrequency: 8, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, platformName: Android, platformVersion: 9.0, proxy: {proxyAutoconfigUrl: http://127.0.0.1:19876/pac.js, proxyType: PAC}, udid: emulator-5554, webdriver.remote.quietExceptions: false}, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Android SDK built for x86_64, deviceName: emulator-5554, deviceScreenDensity: 480, deviceScreenSize: 1440x2960, deviceUDID: emulator-5554, eventTimings: true, hasMetadata: true, javascriptEnabled: true, locationContextEnabled: false, maxTypingFrequency: 8, networkConnectionEnabled: true, newCommandTimeout: 0, noReset: true, noSign: true, orientation: PORTRAIT, pixelRatio: 3, platform: LINUX, platformName: Android, platformVersion: 9, proxy: Proxy(pac: http://127.0.0.1..., statBarHeight: 72, takesScreenshot: true, udid: emulator-5554, viewportRect: {height: 2744, left: 0, top: 72, width: 1440}, warnings: {}, webStorageEnabled: false, webdriver.remote.quietExceptions: false, webdriver.remote.sessionid: ebde8e29e6694b95b462f3bde75...}
+Session ID: ebde8e29e6694b95b462f3bde75e6d8f
+*** Element info: {Using=id, value=com.ebay.kijiji.ca:id/titleEditText}
+</error>
+  </testcase>
+</testsuite>

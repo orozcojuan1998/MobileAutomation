@@ -1,0 +1,131 @@
+{
+  "uid" : "59bad623b0a5ebf5",
+  "name" : "Create ad without photos",
+  "title" : "Create ad without photos",
+  "time" : {
+    "start" : 1585229960981,
+    "stop" : 1585230090331,
+    "duration" : 129350
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 5
+  },
+  "failure" : null,
+  "description" : {
+    "value" : null,
+    "type" : "TEXT"
+  },
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "abc369aef1b2493c",
+    "name" : "Ad Management",
+    "title" : "Ad management"
+  },
+  "steps" : [ {
+    "name" : "Given the user is authenticated",
+    "title" : "Given the user is authenticated",
+    "time" : {
+      "start" : 1585230019061,
+      "stop" : 1585230033419,
+      "duration" : 14358
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Given the user wants to create a new ad",
+    "title" : "Given the user wants to create a new ad",
+    "time" : {
+      "start" : 1585230033419,
+      "stop" : 1585230046596,
+      "duration" : 13177
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "When the user enters the data to create the ad",
+    "title" : "When the user enters the data to create the ad",
+    "time" : {
+      "start" : 1585230046596,
+      "stop" : 1585230078459,
+      "duration" : 31863
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "Then the add is successfully create in the app",
+    "title" : "Then the add is successfully create in the app",
+    "time" : {
+      "start" : 1585230078460,
+      "stop" : 1585230079411,
+      "duration" : 951
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "And the post is deleted",
+    "title" : "And the post is deleted",
+    "time" : {
+      "start" : 1585230079417,
+      "stop" : 1585230089378,
+      "duration" : 9961
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "Create ad without photos"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "feature",
+    "value" : "Ad Management"
+  }, {
+    "name" : "thread",
+    "value" : "9192@EN911114.pool-1-thread-1(13)"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "Ad Management"
+  }, {
+    "name" : "framework",
+    "value" : "CucumberJVM"
+  }, {
+    "name" : "host",
+    "value" : "EN911114"
+  } ],
+  "parameters" : [ ]
+}

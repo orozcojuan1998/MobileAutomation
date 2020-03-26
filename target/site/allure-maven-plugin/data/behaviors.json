@@ -1,0 +1,83 @@
+{
+  "features" : [ {
+    "title" : "Ad Management",
+    "statistic" : {
+      "total" : 3,
+      "passed" : 2,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 1
+    },
+    "stories" : [ {
+      "uid" : "e04a05392489396f",
+      "title" : "Create ad without photos",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "59bad623b0a5ebf5",
+        "name" : "Create ad without photos",
+        "title" : "Create ad without photos",
+        "time" : {
+          "start" : 1585229960981,
+          "stop" : 1585230090331,
+          "duration" : 129350
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "80937069d726b522",
+      "title" : "Create ad with empty title",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 1,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 0
+      },
+      "testCases" : [ {
+        "uid" : "dde42a1e156cb642",
+        "name" : "Create ad with empty title",
+        "title" : "Create ad with empty title",
+        "time" : {
+          "start" : 1585230090450,
+          "stop" : 1585230200602,
+          "duration" : 110152
+        },
+        "severity" : "NORMAL",
+        "status" : "PASSED"
+      } ]
+    }, {
+      "uid" : "664978385c8eb9be",
+      "title" : "Create ad with invalid phone number",
+      "statistic" : {
+        "total" : 1,
+        "passed" : 0,
+        "pending" : 0,
+        "canceled" : 0,
+        "failed" : 0,
+        "broken" : 1
+      },
+      "testCases" : [ {
+        "uid" : "f8b2497184f33b82",
+        "name" : "Create ad with invalid phone number",
+        "title" : "Create ad with invalid phone number",
+        "time" : {
+          "start" : 1585230200613,
+          "stop" : 1585230299757,
+          "duration" : 99144
+        },
+        "severity" : "NORMAL",
+        "status" : "BROKEN"
+      } ]
+    } ]
+  } ]
+}
